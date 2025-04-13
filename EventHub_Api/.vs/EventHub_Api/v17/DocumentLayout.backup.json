@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|c:\\users\\sheng\\code_shengwang\\capstone\\eventhub_project\\eventhub_api\\eventhub_api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|solutionrelative:eventhub_api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|c:\\users\\sheng\\code_shengwang\\capstone\\eventhub_project\\eventhub_api\\eventhub_api\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|solutionrelative:eventhub_api\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|c:\\users\\sheng\\code_shengwang\\capstone\\eventhub_project\\eventhub_api\\eventhub_api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|solutionrelative:eventhub_api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|c:\\users\\sheng\\code_shengwang\\capstone\\eventhub_project\\eventhub_api\\eventhub_api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|solutionrelative:eventhub_api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|c:\\users\\sheng\\code_shengwang\\capstone\\eventhub_project\\eventhub_api\\eventhub_api\\repositories\\efeventrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|solutionrelative:eventhub_api\\repositories\\efeventrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|c:\\users\\sheng\\code_shengwang\\capstone\\eventhub_project\\eventhub_api\\eventhub_api\\interfaces\\ieventrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|solutionrelative:eventhub_api\\interfaces\\ieventrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|c:\\users\\sheng\\code_shengwang\\capstone\\eventhub_project\\eventhub_api\\eventhub_api\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|solutionrelative:eventhub_api\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|c:\\users\\sheng\\code_shengwang\\capstone\\eventhub_project\\eventhub_api\\eventhub_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|solutionrelative:eventhub_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|c:\\users\\sheng\\code_shengwang\\capstone\\eventhub_project\\eventhub_api\\eventhub_api\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|solutionrelative:eventhub_api\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|c:\\users\\sheng\\code_shengwang\\capstone\\eventhub_project\\eventhub_api\\eventhub_api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|solutionrelative:eventhub_api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|c:\\users\\sheng\\code_shengwang\\capstone\\eventhub_project\\eventhub_api\\eventhub_api\\migrations\\20250413174208_usersevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|solutionrelative:eventhub_api\\migrations\\20250413174208_usersevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|c:\\users\\sheng\\code_shengwang\\capstone\\eventhub_project\\eventhub_api\\eventhub_api\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|solutionrelative:eventhub_api\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|c:\\users\\sheng\\code_shengwang\\capstone\\eventhub_project\\eventhub_api\\eventhub_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|solutionrelative:eventhub_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|c:\\users\\sheng\\code_shengwang\\capstone\\eventhub_project\\eventhub_api\\eventhub_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{125A98CE-9ACF-4D58-A0DA-5E06BCD57573}|EventHub_Api\\EventHub_Api.csproj|solutionrelative:eventhub_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "EventHub_Api\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "EventHub_Api\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwCoAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:57:10.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Program.cs",
+              "RelativeDocumentMoniker": "EventHub_Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Program.cs",
+              "RelativeToolTip": "EventHub_Api\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADgvxEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T22:38:02.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventDto.cs",
+              "DocumentMoniker": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\DTOs\\EventDto.cs",
+              "RelativeDocumentMoniker": "EventHub_Api\\DTOs\\EventDto.cs",
+              "ToolTip": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\DTOs\\EventDto.cs",
+              "RelativeToolTip": "EventHub_Api\\DTOs\\EventDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:58:01.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Mappings\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "EventHub_Api\\Mappings\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Mappings\\AutoMapperProfile.cs",
+              "RelativeToolTip": "EventHub_Api\\Mappings\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:59:41.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EventHub_Api\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EventHub_Api\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T20:53:43.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "EventHub_Api\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "EventHub_Api\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:06:38.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "EventHub_Api\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "EventHub_Api\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAiwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:04:51.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "EventHub_Api\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "EventHub_Api\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:06:50.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EFEventRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Repositories\\EFEventRepo.cs",
+              "RelativeDocumentMoniker": "EventHub_Api\\Repositories\\EFEventRepo.cs",
+              "ToolTip": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Repositories\\EFEventRepo.cs",
+              "RelativeToolTip": "EventHub_Api\\Repositories\\EFEventRepo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:55:28.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "EventHub_Api\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Models\\Event.cs",
+              "RelativeToolTip": "EventHub_Api\\Models\\Event.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:31:17.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEventRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Interfaces\\IEventRepo.cs",
+              "RelativeDocumentMoniker": "EventHub_Api\\Interfaces\\IEventRepo.cs",
+              "ToolTip": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Interfaces\\IEventRepo.cs",
+              "RelativeToolTip": "EventHub_Api\\Interfaces\\IEventRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:55:12.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "EventHub_Api\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "EventHub_Api\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T20:52:31.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250413174208_UsersEvents.cs",
+              "DocumentMoniker": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Migrations\\20250413174208_UsersEvents.cs",
+              "RelativeDocumentMoniker": "EventHub_Api\\Migrations\\20250413174208_UsersEvents.cs",
+              "ToolTip": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\Migrations\\20250413174208_UsersEvents.cs",
+              "RelativeToolTip": "EventHub_Api\\Migrations\\20250413174208_UsersEvents.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAqwPwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:46:39.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\appsettings.json",
+              "RelativeDocumentMoniker": "EventHub_Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Sheng\\Code_shengwang\\Capstone\\EventHub_Project\\EventHub_Api\\EventHub_Api\\appsettings.json",
+              "RelativeToolTip": "EventHub_Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-11T20:57:52.201Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 69,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
