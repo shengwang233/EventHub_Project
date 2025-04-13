@@ -1,11 +1,20 @@
 import EventForm from "@/components/shared/EventForm";
-
-import { NextResponse } from 'next/server'
+import { getCurrentUser } from "@/lib/actions/user.actions";
+import { NextResponse } from "next/server";
 
 import React from "react";
 
 const CreateEvent = async () => {
+  const user = await getCurrentUser();
+  console.log("🧪 userType from CreateEvent:", user?.userType);
 
+  if (!user || user.userType !== "host") {
+    return (
+      <div className="text-center py-10 text-red-500 font-bold">
+        Only hosts can create events.
+      </div>
+    );
+  }
 
   return (
     <>

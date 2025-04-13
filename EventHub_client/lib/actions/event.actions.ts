@@ -104,3 +104,4 @@ export async function updateEvent({ event, path }: UpdateEventParams) {
     handleError(error);
   }
 }
+

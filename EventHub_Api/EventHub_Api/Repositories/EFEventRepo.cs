@@ -2,7 +2,6 @@
 using EventHub_Api.Interfaces;
 using EventHub_Api.Models;
 using Microsoft.EntityFrameworkCore;
-
 namespace EventHub_Api.Repositories
 {
     public class EFEventRepo : IEventRepo

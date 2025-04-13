@@ -4,8 +4,8 @@ import { IEvent } from "@/lib/database/models/event.model";
 import { formatDateTime } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { DeleteConfirmation } from "./DeleteConfirmation";
+import React, { useEffect, useState } from "react";
 
 type CardProps = {
   event: IEvent;
@@ -14,6 +14,28 @@ type CardProps = {
 };
 
 const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
+  const [user, setUser] = useState<any>(null);
+
+  useEffect(() => {
+    const fetchUser = async () => {
+      try {
+        const res = await fetch("http://localhost:5000/api/account/me", {
+          credentials: "include",
+        });
+        if (res.ok) {
+          const data = await res.json();
+          setUser(data);
+        }
+      } catch (error) {
+        console.error("Failed to fetch user", error);
+      }
+    };
+
+    fetchUser();
+  }, []);
+  const isHost = user?.userType === "host";
+  const isCreator = user?.userId === event.organizerId?._id;
+
   return (
     <div className="group relative flex min-h-[380px] w-full max-w-[400px] flex-col overflow-hidden rounded-xl bg-white shadow-md transition-all hover:shadow-lg md:min-h-[438px]">
       <Link
@@ -22,7 +44,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
         className="flex-center flex-grow bg-gray-50 bg-cover bg-center text-grey-500"
       />
 
-      {!hidePrice && (
+      {isHost && isCreator && (
         <div className="absolute right-2 top-2 flex flex-col gap-4 rounded-xl bg-white p-3 shadow-sm transition-all">
           <Link href={`/events/${event.id}/update`}>
             <Image
@@ -45,9 +67,9 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
           </div>
         )}
 
-        <p className="p-medium-16 p-medium-18 text-grey-500">
-          {formatDateTime(event.startDate).dateTime}
-        </p>
+        {/* <p className="p-medium-16 text-grey-500">
+          {formatDateTime(new Date(event.startDate)).dateTime}
+        </p> */}
 
         <Link href={`/events/${event.id}`}>
           <p className="p-medium-16 md:p-medium-20 line-clamp-2 flex-1 text-black">

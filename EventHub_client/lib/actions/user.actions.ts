@@ -1,16 +1,24 @@
 "use serve";
 
-import { CreateUserParams } from "@/types";
-import { connectToDatabase } from "../database";
-import { handleError } from "../utils";
-import User from "../database/models/user.model";
+import { cookies } from "next/headers";
 
-export const createUser = async (user: CreateUserParams) => {
+export const getCurrentUser = async () => {
   try {
-    await connectToDatabase();
-    const newUser = await User.create(user);
-    return JSON.parse(JSON.stringify(newUser));
+    const res = await fetch("http://localhost:5000/api/account/me", {
+      credentials: "include",
+      headers: {
+        Cookie: cookies().toString(),
+      },
+      cache: "no-store",
+    });
+
+    if (!res.ok) return null;
+
+    const data = await res.json();
+    console.log("🟢 getCurrentUser data:", data);
+    return data;
   } catch (error) {
-    handleError(error);
+    console.error("Failed to fetch user", error);
+    return null;
   }
 };

@@ -1,5 +1,6 @@
 import Collection from "@/components/shared/Collection";
 import SignUpForm from "@/components/shared/SignUpForm";
+import UserStatusBanner from "@/components/shared/UserStatusBanner";
 import { Button } from "@/components/ui/button";
 import { getAllEvents } from "@/lib/actions/event.actions";
 import { IEvent } from "@/lib/database/models/event.model";
@@ -46,6 +47,7 @@ export default async function Home() {
           collectionType="All_Events"
         />
       </section>
+      {/* <UserStatusBanner /> */}
     </main>
   );
 }

@@ -42,19 +42,18 @@ const EventDetails = async ({ params: { id } }: SearchParamProps) => {
               </div>
             </div>
 
-            <div className="flex flex-col gap-3">
+            {/* <div className="flex flex-col gap-3">
               <Link href={`/events/${event.id}/update`} className="button">
                 <Image
                   src="/assets/icons/edit.svg"
                   alt="edit"
                   width={20}
                   height={20}
-                /> 
+                />
               </Link>
-              <button>
-                <DeleteConfirmation eventId={event.id} />
-              </button>
-            </div>
+
+              <DeleteConfirmation eventId={event.id} />
+            </div> */}
 
             <div className="flex flex-col gap-5">
               <div className="flex gap-2 md:gap-3">

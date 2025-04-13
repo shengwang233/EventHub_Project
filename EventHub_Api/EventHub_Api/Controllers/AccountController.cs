@@ -67,7 +67,7 @@ namespace EventHub_Api.Controllers
                 Expires = DateTimeOffset.UtcNow.AddMinutes(60)
             });
 
-            _logger.LogInformation("✅ Logged in user ID: {UserId}", user.Id);
+            _logger.LogInformation("✅ Logged in user: " + user.Email + " | " + user.UserType);
 
             return Ok(new
             {
@@ -108,10 +108,9 @@ namespace EventHub_Api.Controllers
                 expires: DateTime.UtcNow.AddMinutes(double.Parse(jwtSection["ExpiresInMinutes"]!)),
                 signingCredentials: creds
             );
-
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-        [Authorize]
+        [AllowAnonymous]
         [HttpGet("me")]
         public async Task<IActionResult> Me()
         {
