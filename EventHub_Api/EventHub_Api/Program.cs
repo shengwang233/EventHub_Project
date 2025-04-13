@@ -8,7 +8,7 @@ using System.Text;
 using System.Text.Json;
 using EventHub_Api.Interfaces;
 using EventHub_Api.Repositories;
-using EventHub_Api.Mappings;
+using EventHub_Api.Services;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,8 +23,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration["ConnectionStrings:DBConnStr"]));
 builder.Services.AddScoped<IEventRepo, EFEventRepo>();
 
-//AutoMapper
-builder.Services.AddAutoMapper(typeof(AutoMapperProfile).Assembly);
+builder.Services.AddScoped<AuthService>();
+builder.Services.AddScoped<JwtService>();
+builder.Services.AddScoped<UserProfileService>();
 
 
 //Identity

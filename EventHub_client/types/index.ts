@@ -84,15 +84,7 @@ export type Event = {
   startDateTime: Date;
   endDateTime: Date;
   url: string;
-  organizer: {
-    _id: string;
-    firstName: string;
-    lastName: string;
-  };
-  category: {
-    _id: string;
-    name: string;
-  };
+  organizerId: string;
 };
 
 // ====== CATEGORY PARAMS

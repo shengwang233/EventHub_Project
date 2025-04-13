@@ -15,7 +15,7 @@ namespace EventHub_Api.Repositories
 
         public async Task<List<Event>> GetAllAsync(string? query)
         {
-            var events = _context.Events.AsQueryable();
+            var events = _context.Events.Include(e=>e.Organizer).AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(query))
             {
@@ -27,7 +27,7 @@ namespace EventHub_Api.Repositories
 
         public async Task<Event?> GetByIdAsync(Guid id)
         {
-            return await _context.Events.FindAsync(id);
+            return await _context.Events.Include(e => e.Organizer).FirstOrDefaultAsync(e => e.Id == id); ;
         }
 
         public async Task<Event> CreateAsync(Event newEvent)

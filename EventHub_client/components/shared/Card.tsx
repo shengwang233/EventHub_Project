@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { DeleteConfirmation } from "./DeleteConfirmation";
 import React, { useEffect, useState } from "react";
+import { useCurrentUser } from "@/lib/hooks/useCurrentUser";
 
 type CardProps = {
   event: IEvent;
@@ -14,28 +15,9 @@ type CardProps = {
 };
 
 const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
-  const [user, setUser] = useState<any>(null);
-
-  useEffect(() => {
-    const fetchUser = async () => {
-      try {
-        const res = await fetch("http://localhost:5000/api/account/me", {
-          credentials: "include",
-        });
-        if (res.ok) {
-          const data = await res.json();
-          setUser(data);
-        }
-      } catch (error) {
-        console.error("Failed to fetch user", error);
-      }
-    };
-
-    fetchUser();
-  }, []);
+  const user = useCurrentUser();
   const isHost = user?.userType === "host";
-  const isCreator = user?.userId === event.organizerId?._id;
-
+  const isCreator = user?.userId === event?.organizerId;
   return (
     <div className="group relative flex min-h-[380px] w-full max-w-[400px] flex-col overflow-hidden rounded-xl bg-white shadow-md transition-all hover:shadow-lg md:min-h-[438px]">
       <Link

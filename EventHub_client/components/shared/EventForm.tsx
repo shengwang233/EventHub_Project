@@ -25,6 +25,7 @@ import { UploadButton } from "@/lib/uploadthing";
 import { useRouter } from "next/navigation";
 import { createEvent, updateEvent } from "@/lib/actions/event.actions";
 import { IEvent } from "@/lib/database/models/event.model";
+import { useCurrentUser } from "@/lib/hooks/useCurrentUser";
 
 type EventFormProps = {
   type: "Create" | "Update";
@@ -33,11 +34,13 @@ type EventFormProps = {
 };
 
 const EventForm = ({ type, event, eventId }: EventFormProps) => {
+  const user = useCurrentUser();
+
   const safeDate = (value?: string) => {
     const date = new Date(value || "");
     return isNaN(date.getTime()) ? new Date() : date;
   };
-  
+
   const initialValues =
     event && type === "Update"
       ? {
@@ -59,6 +62,7 @@ const EventForm = ({ type, event, eventId }: EventFormProps) => {
       ...values,
       startDateTime: new Date(values.startDateTime).toISOString(),
       endDateTime: new Date(values.endDateTime).toISOString(),
+      organizerId: user?.userId,
     };
 
     if (type === "Create") {
@@ -92,7 +96,6 @@ const EventForm = ({ type, event, eventId }: EventFormProps) => {
           form.reset();
           router.push(`/events/${updatedEvent.id}`);
         }
-
       } catch (error) {
         console.log(error);
       }

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EventHub_Api.Models
 {
@@ -30,5 +31,12 @@ namespace EventHub_Api.Models
         public string Url { get; set; } = "";
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        [Required]
+        public string OrganizerId { get; set; } = string.Empty;
+
+        [ForeignKey("OrganizerId")]
+        public ApplicationUser? Organizer { get; set; }
+
     }
 }
